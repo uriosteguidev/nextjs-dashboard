@@ -50,6 +50,9 @@ importers:
       use-debounce:
         specifier: ^10.0.1
         version: 10.0.1(react@19.0.0-rc-f38c22b244-20240704)
+      use-debounced:
+        specifier: ^1.1.0
+        version: 1.1.0(react-dom@19.0.0-rc-f38c22b244-20240704(react@19.0.0-rc-f38c22b244-20240704))(react@19.0.0-rc-f38c22b244-20240704)
       zod:
         specifier: ^3.23.8
         version: 3.23.8
@@ -1095,6 +1098,12 @@ packages:
     peerDependencies:
       react: '>=16.8.0'
 
+  use-debounced@1.1.0:
+    resolution: {integrity: sha512-oMz2Y57hJQXnzFrEnHeJG1eygPqu7DoAJJXmCd77yaU4TtnIE7j40nqjRMAe+vCpFz8vfwJaP7gh2vrQNMRuzw==}
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+      react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
+
   utf-8-validate@6.0.3:
     resolution: {integrity: sha512-uIuGf9TWQ/y+0Lp+KGZCMuJWc3N9BHA+l/UmHd/oUHwJJDeysyTRxNQVkbzsIWfGFbRe3OcgML/i0mvVRPOyDA==}
     engines: {node: '>=6.14.2'}
@@ -2095,6 +2104,12 @@ snapshots:
   use-debounce@10.0.1(react@19.0.0-rc-f38c22b244-20240704):
     dependencies:
       react: 19.0.0-rc-f38c22b244-20240704
+
+  use-debounced@1.1.0(react-dom@19.0.0-rc-f38c22b244-20240704(react@19.0.0-rc-f38c22b244-20240704))(react@19.0.0-rc-f38c22b244-20240704):
+    dependencies:
+      react: 19.0.0-rc-f38c22b244-20240704
+      react-dom: 19.0.0-rc-f38c22b244-20240704(react@19.0.0-rc-f38c22b244-20240704)
+      tslib: 2.6.3
 
   utf-8-validate@6.0.3:
     dependencies:
