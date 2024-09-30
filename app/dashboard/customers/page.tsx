@@ -1,3 +1,9 @@
-export default function CustomersPage(){
-    return <p>Customers page</p>
+import React from 'react'
+
+const CustomersPage = () => {
+  return (
+    <div>CustomersPage</div>
+  )
 }
+
+export default CustomersPage
